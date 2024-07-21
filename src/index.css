@@ -54,3 +54,42 @@ th {
   border: 2px solid;
   width: 100px;
 }
+
+form {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+form>div {
+  width: 324px;
+  display: flex;
+  justify-content: space-between;
+}
+
+form>div:last-child {
+  justify-content: center;
+}
+
+
+form>div:last-child>button {
+  background-color: rgb(242, 190, 92);
+  width: 100px;
+  min-height: 30px;
+  border: none;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+#username,
+#password {
+  margin-left: 5px;
+  width: 230px;
+  min-height: 25px;
+  padding: 3px;
+  border-radius: 3px;
+}
